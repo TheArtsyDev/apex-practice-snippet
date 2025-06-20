@@ -14,16 +14,16 @@ do{
 if (Math.mod(num,3) == 0){
     
 if (Math.mod(num,5) == 0){
-       System.debug('buzz');
+       System.debug(num + 'buzz');
    }
     
     
    if (Math.mod(num,15) == 0){
-    System.debug('fizzbuzz');
+    System.debug(num + 'fizzbuzz');
    }
  
     else{
-        System.debug('fizz');
+        System.debug(num + 'fizz');
     }
 }
     num++;
