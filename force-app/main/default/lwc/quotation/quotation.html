@@ -1,0 +1,35 @@
+<template>
+    <lightning-card title="New Quotation" icon-name="standard:quote">
+        <div class="slds-p-around_medium">
+
+            <!-- Quotation Header -->
+            <lightning-input label="Customer Name" value={customerName} onchange={handleInputChange} data-id="customerName"></lightning-input>
+            <lightning-input type="email" label="Email" value={email} onchange={handleInputChange} data-id="email"></lightning-input>
+            <lightning-input type="Contact Number" label="Contact Number" value={ContactNumber} onchange={handleInputChange} data-id="Contact number"></lightning-input>
+            <lightning-input type="date" label="Quotation Date" value={quotationDate} onchange={handleInputChange} data-id="quotationDate"></lightning-input>
+
+            <hr />
+
+            <!-- Line Items -->
+            <template for:each={lineItems} for:item="item" for:index="index">
+                <div key={item.id} class="slds-box slds-m-around_x-small">
+                    <lightning-input label="Product Name" value={item.productName} data-id="productName" data-index={index} onchange={handleLineItemChange}></lightning-input>
+                    <lightning-input label="Description" value={item.description} data-id="description" data-index={index} onchange={handleLineItemChange}></lightning-input>
+                    <lightning-input type="number" label="Quantity" value={item.quantity} data-id="quantity" data-index={index} onchange={handleLineItemChange}></lightning-input>
+                    <lightning-input type="number" label="Unit Price" value={item.unitPrice} data-id="unitPrice" data-index={index} onchange={handleLineItemChange}></lightning-input>
+                    <p><b>Total: </b> ₹{item.totalPrice}</p>
+                    <lightning-button label="Remove" variant="destructive" data-index={index} onclick={removeLineItem}></lightning-button>
+                </div>
+            </template>
+
+            <!-- Add Line Item -->
+            <lightning-button label="Add Line Item" onclick={addLineItem}></lightning-button>
+
+            <hr />
+            <h3><b>Total Quotation Amount:</b> ₹{totalAmount}</h3>
+
+            <!-- Save Button -->
+            <lightning-button label="Save Quotation" variant="brand" onclick={saveQuotation}></lightning-button>
+        </div>
+    </lightning-card>
+</template>
