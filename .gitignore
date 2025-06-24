@@ -70,3 +70,9 @@ Thumbs.db
 # Optional: Ignore Node.js & VS Code workspace files (if you see them)
 node_modules/
 *.code-workspace
+
+# Ignore unnecessary folders
+.husky/
+.vscode/
+aura/
+object/
