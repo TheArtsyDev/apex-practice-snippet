@@ -7,6 +7,8 @@
 .sfdx/
 .localdevserver/
 deploy-options.json
+.vscode/
+.husky/
 
 # LWC VSCode autocomplete
 **/lwc/jsconfig.json
@@ -43,3 +45,28 @@ $RECYCLE.BIN/
 **/__pycache__/
 **/.venv/
 **/venv/
+
+# Ignore system & tooling folders
+.vscode/
+.husky/
+.sf/
+
+# Ignore unwanted Salesforce metadata folders
+aura/
+contentassets/
+flexipages/
+permissionsets/
+staticresources/
+tabs/
+triggers/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# Optional: Ignore Node.js & VS Code workspace files (if you see them)
+node_modules/
+*.code-workspace
