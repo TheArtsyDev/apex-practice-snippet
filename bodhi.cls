@@ -1,2 +1,2 @@
-String Str = 'i am a bodhichet';
+String Str = 'I am a bodhi developer';
 System.debug('Actual String: ' + Str);
