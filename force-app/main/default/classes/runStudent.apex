@@ -39,8 +39,10 @@ Integer i = 0;
 do {
     Student A = studentList[i];
     Integer numId = Integer.valueOf(A.Id.replace('11A', ''));
-    if (numId <= 1005 && numId >= 1010) {
+    if (numId >= 1005 && numId <= 1010) {
         System.debug(A.getInfo());
+    }else {
+        System.debug('Not interested in this data');
     }
     i++;
 } while (i < studentList.size());*/
