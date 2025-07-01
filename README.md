@@ -157,4 +157,40 @@ System.debug('Hello Salesforce!');
 | 6       | Module Review + Recap            | 4–5 hrs             | Revisit weak areas, Trailhead notes, and frequently asked concepts.                           |
 | 7       | Final Reflection & Wrap-up       | 3 hrs               | Write summary blog or record video + final push to GitHub with full documentation.            |
 
-2e620b6a051b56889af398d26a7d3b88ad2dcc50
+## JavaScript + LWC
+
+## 🗓️ Week 1 – JavaScript Essentials
+
+| **Day** | **Focus**                            | **Learning Hours** | **What to Do**                                                                                             |
+|--------|--------------------------------------|---------------------|-------------------------------------------------------------------------------------------------------------|
+| Day 1  | JS Variables, Data Types, Operators  | 6 hrs               | Learn `let`, `const`, `var`, primitive types, operators, type coercion. Practice in JSFiddle/Playground.    |
+| Day 2  | Control Flow & Functions             | 6 hrs               | Learn `if`, `switch`, loops (`for`, `while`), functions, arrow functions. Solve 5 small coding challenges.  |
+| Day 3  | Objects & Arrays                     | 6 hrs               | Understand object literals, arrays, looping through them, destructuring. Try hands-on coding problems.     |
+| Day 4  | ES6 Features & DOM Basics            | 6 hrs               | Learn `template literals`, `spread`, `rest`, `map`, `filter`, `reduce`, `DOM` access, query selectors.     |
+| Day 5  | Classes & Modules                    | 6 hrs               | Learn `class`, `constructor`, inheritance, import/export modules. Practice by building small JS classes.   |
+| Day 6  | Async JavaScript                     | 6 hrs               | Understand Promises, async/await, callbacks, fetch API. Make sample API calls to dummy REST endpoints.     |
+| Day 7  | Mini JS Project                       | 6 hrs               | Build a calculator or todo list with DOM, classes, and async. Push it to GitHub with README.                |
+
+## 🗓️ Week 2 – HTML + LWC Fundamentals
+
+| **Day** | **Focus**                          | **Learning Hours** | **What to Do**                                                                                       |
+|--------|------------------------------------|---------------------|-------------------------------------------------------------------------------------------------------|
+| Day 8  | HTML Basics + LWC Setup            | 6 hrs               | Review HTML elements, semantic tags. Set up Salesforce DX, VS Code, LWC plugin. Create helloWorld LWC. |
+| Day 9  | LWC Folder Structure + HTML Usage  | 6 hrs               | Learn .html file syntax, rendering lists, using expressions, `template if:true/false`.                |
+| Day 10 | JS in LWC                          | 6 hrs               | Connect .js file to .html, use `@track`, `@api`, bind data, create a reactive form.                   |
+| Day 11 | Event Handling & Two-Way Binding   | 6 hrs               | Handle events, `onchange`, `onclick`, `dispatchEvent`, child-parent comms. Practice with inputs.      |
+| Day 12 | LWC Lifecycle & Conditional Render | 6 hrs               | Learn `connectedCallback()`, `renderedCallback()`, template directives.                              |
+| Day 13 | CSS in LWC                         | 6 hrs               | Scoped CSS, styling hooks, SLDS integration basics. Build and style a UI component.                  |
+| Day 14 | Mini LWC Project                   | 6 hrs               | Build a component to show account/contact data (mock or static JSON). Push to GitHub.                 |
+
+## 🗓️ Week 3 – Advanced LWC & Integration
+
+| **Day** | **Focus**                         | **Learning Hours** | **What to Do**                                                                                              |
+|--------|-----------------------------------|---------------------|--------------------------------------------------------------------------------------------------------------|
+| Day 15 | LWC with Apex                     | 6 hrs               | Learn `@wire` with Apex, imperative calls, test with dummy Apex class. Understand governor limits.          |
+| Day 16 | Navigation + LDS                  | 6 hrs               | Learn navigation service, navigate to record/page. Explore Lightning Data Service for CRUD ops.             |
+| Day 17 | Composition & Reusability         | 6 hrs               | Nesting components, event bubbling, `@api` vs `@track` in parent-child flow. Create a reusable alert box.   |
+| Day 18 | Error Handling & Toasts           | 6 hrs               | Implement try/catch, show toast messages using `ShowToastEvent`. Handle server-side and UI errors.          |
+| Day 19 | Deployment & Debugging            | 6 hrs               | Push LWC to scratch org, check errors in VS Code, use debug logs, use LWC Dev Tools in Chrome.              |
+| Day 20 | Final LWC CRUD Project            | 6 hrs               | Build Account Manager with list, add, edit, delete functionality. Connect with Apex methods. Push to GitHub.|
+| Day 21 | Revision & Portfolio Polish       | 6 hrs               | Revise core concepts, polish README files, write blog or LinkedIn post about your learning journey.         |
