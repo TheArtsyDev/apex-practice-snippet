@@ -193,3 +193,34 @@ System.debug('Hello Salesforce!');
 | Day 19 | Deployment & Debugging            | 6 hrs               | Push LWC to scratch org, check errors in VS Code, use debug logs, use LWC Dev Tools in Chrome.              |
 | Day 20 | Final LWC CRUD Project            | 6 hrs               | Build Account Manager with list, add, edit, delete functionality. Connect with Apex methods. Push to GitHub.|
 | Day 21 | Revision & Portfolio Polish       | 6 hrs               | Revise core concepts, polish README files, write blog or LinkedIn post about your learning journey.         |
+
+## 🗓️ Git Mastery – One-Week Learning Plan (Basics to Advanced)
+
+This 7-day intensive plan will take you from absolute beginner to mastering Git with real-world hands-on exercises.
+
+---
+
+## ✅ Week Overview
+
+| **Day** | **Focus**                             | **Learning Hours** | **What to Do**                                                                                                                                                  |
+|---------|---------------------------------------|---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1️⃣ Day 1 | 🔰 Git Basics & Setup                  | 5–6 hrs             | - Install Git<br>- Configure username & email<br>- Understand what is version control<br>- Initialize a Git repo<br>- Run basic commands: `init`, `status`, `add`, `commit`, `log`<br><br>🔧 **Practice**:<br>- Create a folder `my-git-practice`, init repo, make 3 commits with different files |
+| 2️⃣ Day 2 | 📁 Branching & Merging                | 5–6 hrs             | - Understand HEAD, working directory, staging area<br>- Learn `branch`, `checkout`, `merge`<br>- Understand fast-forward vs 3-way merge<br>- Resolve merge conflicts<br><br>🔧 **Practice**:<br>- Create feature branches, make changes, merge to main |
+| 3️⃣ Day 3 | 🌐 Remote Repositories & GitHub       | 5–6 hrs             | - Create GitHub account (if not already)<br>- Understand SSH vs HTTPS<br>- Link local repo to GitHub using `git remote`<br>- Push & pull changes<br>- Understand `clone`, `fetch`, `pull`, `push`<br><br>🔧 **Practice**:<br>- Clone a GitHub repo, make changes, push to GitHub |
+| 4️⃣ Day 4 | 🔄 Rewriting History & Reset/Revert   | 5–6 hrs             | - Learn `git reset` (soft, mixed, hard)<br>- Learn `git revert` vs `git reset`<br>- Use `git reflog` to recover<br>- Rewrite commit messages (`git commit --amend`)<br><br>🔧 **Practice**:<br>- Revert a commit, amend a commit, reset to previous state |
+| 5️⃣ Day 5 | 🧪 Stashing, Tags & Ignoring Files    | 5–6 hrs             | - Learn `git stash` for temporary work<br>- Understand when to use tags: `git tag`, `git show`<br>- Create annotated & lightweight tags<br>- Use `.gitignore` correctly<br><br>🔧 **Practice**:<br>- Stash changes, switch branches, apply stash, tag a release version |
+| 6️⃣ Day 6 | 🧠 Advanced Topics & Rebase           | 5–6 hrs             | - Understand `git rebase` vs `merge`<br>- Learn interactive rebase (`git rebase -i`)<br>- Learn `git cherry-pick`, `bisect`, `blame`<br><br>🔧 **Practice**:<br>- Rebase feature branch on main, cherry-pick commit, use `git blame` to trace changes |
+| 7️⃣ Day 7 | 🚀 Git Collaboration & Real Projects  | 5–6 hrs             | - Forking a repo<br>- Making PRs<br>- Code review process<br>- GitHub issues, labels, milestones<br>- Contributing to open-source<br><br>🔧 **Practice**:<br>- Fork a real repo, clone it, make a PR with changes (can be documentation fix) |
+
+---
+
+## 📚 Bonus Resources
+
+- 📘 [Pro Git Book (Official)](https://git-scm.com/book/en/v2)
+- 📄 [Git Cheat Sheet PDF](https://education.github.com/git-cheat-sheet-education.pdf)
+- 🧠 [Learn Git Branching (Interactive)](https://learngitbranching.js.org/)
+- 🧪 [GitHub Learning Lab](https://lab.github.com/)
+
+---
+
+> 🔁 **Tip:** You can repeat Days 6 & 7 multiple times with different open-source repos for mastery.
